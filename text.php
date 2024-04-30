@@ -4,6 +4,11 @@ $word = $_GET['word'];
 $length = strlen($text);
 $newText = str_replace($word, '***', $text);
 $newLength = strlen($newText);
+$test = [
+    'carlo',
+    'maria',
+    'mario'
+]
 ?>
 
 <!DOCTYPE html>
@@ -16,7 +21,7 @@ $newLength = strlen($newText);
 </head>
 
 <body>
-    <?php var_dump($text) ?>
+    <?php var_dump($test) ?>
     <h2> testo inserito non censurato:
         <?php echo $text; ?>
     </h2>
